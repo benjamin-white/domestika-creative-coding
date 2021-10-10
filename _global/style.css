@@ -1,0 +1,22 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.u-canvasWrap {
+  width: 1024px;
+}
+.u-canvasWrap > div {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+.u-canvasWrap canvas {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+canvas {
+  background: #000;
+}
